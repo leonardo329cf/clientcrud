@@ -31,13 +31,13 @@ public class ClientDTO implements Serializable {
 		this.children = children;
 	}
 	
-	public ClientDTO(Client client) {
-		this.id = client.getId();
-		this.name = client.getName();
-		this.cpf = client.getCpf();
-		this.income = client.getIncome();
-		this.birthDate = client.getBirthDate();
-		this.children = client.getChildren();
+	public ClientDTO(Client entity) {
+		this.id = entity.getId();
+		this.name = entity.getName();
+		this.cpf = entity.getCpf();
+		this.income = entity.getIncome();
+		this.birthDate = entity.getBirthDate();
+		this.children = entity.getChildren();
 	}
 
 	
